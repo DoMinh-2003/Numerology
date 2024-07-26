@@ -11,21 +11,14 @@ function CardItem({ title, image, desc, subDesc, btn }) {
           {title}
         </h3>
       </div>
-      <div className="card-desc font-[300] w-[276px] text-[15px] leading-[24px] text-center sm:mb-5">
-        <p>{desc}</p>
+
+      <div className="card-desc font-[400] sm:w-[290px] w-[270px] sm:text-[14px] text-[13px]  leading-[24px] text-center sm:mb-5">
+        {desc()}
       </div>
       <div className="card-subDesc font-[300] text-[15px] leading-[24px] text-center mb-5">
         <p>{subDesc}</p>
       </div>
-      <div
-        className="card-btn sm:w-[327px] w-[250px] h-[85px] rounded-[6px] flex flex-col items-center justify-center"
-        style={{ background: `${btn.background}` }}
-      >
-        <p className="text-orange-400">{btn.label}</p>
-        <p className="text-black font-medium italic text-[15px] leading-[24px]">
-          {btn.desc}
-        </p>
-      </div>
+      <div>{btn()}</div>
     </div>
   );
 }

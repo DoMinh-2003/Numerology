@@ -1,4 +1,9 @@
 .homePage__reason {
   background: url("../../images/background_reason.png");
-  background-size: cover;
+}
+.homePage__form {
+  background: url("../../images/background_form.png");
+}
+.homePage__characteristic {
+  background: url("../../images/background_characteristic.png");
 }

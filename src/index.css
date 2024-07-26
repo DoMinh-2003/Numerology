@@ -1,7 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-body {
-  font-family: "Inter", sans-serif;
+
+.bg-custom-pattern {
+  @apply bg-cover bg-center bg-fixed;
+}
+.section {
+  @apply w-full h-fit md:py-[80px] py-[40px];
+}
+.section-container {
+  @apply mx-auto max-w-7xl px-3;
+}
+.size-title {
+  @apply sm:text-[24px] text-[20px] leading-[29.05px];
+}
+.size-pra {
+  @apply sm:text-[14px] text-[13px]  leading-[24px];
+}
+.size-label {
+  @apply sm:text-[48px] sm:leading-[70px] text-center mb-[30px] px-5 text-[33px] leading-[35px];
 }
