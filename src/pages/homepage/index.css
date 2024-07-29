@@ -3,7 +3,13 @@
 }
 .homePage__form {
   background: url("../../images/background_form.png");
+  background-position: center;
+  background-size: cover !important;
+  background-repeat: no-repeat;
 }
 .homePage__characteristic {
   background: url("../../images/background_characteristic.png");
+}
+.homePage__finish {
+  background: url("../../images/background_finish.png");
 }

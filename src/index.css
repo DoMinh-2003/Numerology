@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .bg-custom-pattern {
-  @apply bg-cover bg-center bg-fixed;
+  @apply bg-cover bg-center;
 }
 .section {
   @apply w-full h-fit md:py-[80px] py-[40px];
@@ -18,5 +18,5 @@
   @apply sm:text-[14px] text-[13px]  leading-[24px];
 }
 .size-label {
-  @apply sm:text-[48px] sm:leading-[70px] text-center mb-[30px] px-5 text-[33px] leading-[35px];
+  @apply sm:text-[48px] sm:leading-[70px] text-center mb-[16.8px] sm:mb-[30px] text-[28px] leading-[35px];
 }
