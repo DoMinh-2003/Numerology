@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-custom-pattern {
+  @apply bg-cover bg-center;
+}
+.section {
+  @apply w-full h-fit md:py-[80px] py-[40px];
+}
+.section-container {
+  @apply mx-auto max-w-7xl px-3;
+}
+.size-title {
+  @apply sm:text-[24px] text-[20px] leading-[29.05px];
+}
+.size-pra {
+  @apply sm:text-[14px] text-[13px]  leading-[24px];
+}
+.size-label {
+  @apply sm:text-[48px] sm:leading-[70px] text-center mb-[16.8px] sm:mb-[30px] text-[28px] leading-[35px];
+}
