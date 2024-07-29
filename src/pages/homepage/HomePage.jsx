@@ -54,7 +54,7 @@ function HomePage() {
       title: "Nhận biết",
       desc: () => {
         return (
-          <p>
+          <p className="size-pra">
             <b>Hiểu mình</b>, hiểu người
             <br />
             Trở thành <b>phiên bản tốt nhất</b> của chính mình
@@ -268,16 +268,16 @@ function HomePage() {
       contentLeft: () => {
         return (
           <>
-            <p>Độc lập</p>
-            <p>Bản lĩnh</p>
+            <p>An nhiên</p>
+            <p>Vị tha</p>
           </>
         );
       },
       contentRight: () => {
         return (
           <>
-            <div>Ích kỷ</div>
-            <div>Cái tôi lớn</div>
+            <div>Thất thường</div>
+            <div>Lệ thuộc</div>
           </>
         );
       },
@@ -286,16 +286,16 @@ function HomePage() {
       contentLeft: () => {
         return (
           <>
-            <p>Độc lập</p>
-            <p>Bản lĩnh</p>
+            <p>Học sâu</p>
+            <p>Tài năng</p>
           </>
         );
       },
       contentRight: () => {
         return (
           <>
-            <div>Ích kỷ</div>
-            <div>Cái tôi lớn</div>
+            <div>Học cạn</div>
+            <div>khoe mẽ</div>
           </>
         );
       },
@@ -304,16 +304,16 @@ function HomePage() {
       contentLeft: () => {
         return (
           <>
-            <p>Độc lập</p>
-            <p>Bản lĩnh</p>
+            <p>Thực tế</p>
+            <p>Sắp xếp</p>
           </>
         );
       },
       contentRight: () => {
         return (
           <>
-            <div>Ích kỷ</div>
-            <div>Cái tôi lớn</div>
+            <div>Thực dụng</div>
+            <div>Ngoan cố</div>
           </>
         );
       },
@@ -322,16 +322,16 @@ function HomePage() {
       contentLeft: () => {
         return (
           <>
-            <p>Độc lập</p>
-            <p>Bản lĩnh</p>
+            <p>Kết nối từ tâm</p>
+            <p>Tự do loan toả</p>
           </>
         );
       },
       contentRight: () => {
         return (
           <>
-            <div>Ích kỷ</div>
-            <div>Cái tôi lớn</div>
+            <div>Kết nối toan tính</div>
+            <div>Tự do quá đà</div>
           </>
         );
       },
@@ -340,16 +340,16 @@ function HomePage() {
       contentLeft: () => {
         return (
           <>
-            <p>Độc lập</p>
-            <p>Bản lĩnh</p>
+            <p>Sáng tạo</p>
+            <p>yêu thưong</p>
           </>
         );
       },
       contentRight: () => {
         return (
           <>
-            <div>Ích kỷ</div>
-            <div>Cái tôi lớn</div>
+            <div>Tối tạo</div>
+            <div>Dính mắc</div>
           </>
         );
       },
@@ -358,16 +358,16 @@ function HomePage() {
       contentLeft: () => {
         return (
           <>
-            <p>Độc lập</p>
-            <p>Bản lĩnh</p>
+            <p>Sâu sắc, triết lý</p>
+            <p>Vượt khó khổ</p>
           </>
         );
       },
       contentRight: () => {
         return (
           <>
-            <div>Ích kỷ</div>
-            <div>Cái tôi lớn</div>
+            <div>Lý thuyết suông</div>
+            <div>Chìm đắm</div>
           </>
         );
       },
@@ -376,16 +376,16 @@ function HomePage() {
       contentLeft: () => {
         return (
           <>
-            <p>Độc lập</p>
-            <p>Bản lĩnh</p>
+            <p>Uy quyền</p>
+            <p>Chuyên gia về tâm</p>
           </>
         );
       },
       contentRight: () => {
         return (
           <>
-            <div>Ích kỷ</div>
-            <div>Cái tôi lớn</div>
+            <div>Kiểm soát</div>
+            <div>Chuyên gia tiền</div>
           </>
         );
       },
@@ -394,16 +394,16 @@ function HomePage() {
       contentLeft: () => {
         return (
           <>
-            <p>Độc lập</p>
-            <p>Bản lĩnh</p>
+            <p>Cộng đồng</p>
+            <p>Lý tưởng</p>
           </>
         );
       },
       contentRight: () => {
         return (
           <>
-            <div>Ích kỷ</div>
-            <div>Cái tôi lớn</div>
+            <div>Nhụt chí</div>
+            <div>Ảo tưởng</div>
           </>
         );
       },
@@ -412,16 +412,16 @@ function HomePage() {
       contentLeft: () => {
         return (
           <>
-            <p>Độc lập</p>
-            <p>Bản lĩnh</p>
+            <p>Bật thầy đạo lý</p>
+            <p>Chia sẻ cống hiến</p>
           </>
         );
       },
       contentRight: () => {
         return (
           <>
-            <div>Ích kỷ</div>
-            <div>Cái tôi lớn</div>
+            <div>Hoang mang</div>
+            <div>Thu mình lại</div>
           </>
         );
       },
@@ -522,7 +522,7 @@ function HomePage() {
                 </label>
                 <select
                   placeholder="Giới tính"
-                  className="pl-[20px] h-[48px] w-full bg-white rounded-[6px]"
+                  className="pl-[20px] pr-2 h-[48px] w-full bg-white rounded-[6px]"
                   name="set"
                 >
                   <option>Giới tính</option>
