@@ -27,6 +27,7 @@ import { CiSearch } from "react-icons/ci";
 function HomePage() {
   const [isOpen, setIsOpen] = useState(false);
   const isQuery = useMediaQuery({ query: "(max-width: 400px)" });
+  const isQueryTable = useMediaQuery({ query: "(max-width: 755px)" });
   const items = [
     {
       title: "Khởi đầu",
@@ -112,12 +113,20 @@ function HomePage() {
     {
       dataSource: {
         1: () => (
-          <div className="px-3 py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center">
+          <div
+            className={`${
+              isQueryTable ? "px-12" : "px-3"
+            } py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
+          >
             Trí
           </div>
         ),
         2: () => (
-          <div className="px-3 py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center">
+          <div
+            className={`${
+              isQueryTable ? "px-12" : "px-3"
+            } py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
+          >
             3
           </div>
         ),
@@ -127,7 +136,11 @@ function HomePage() {
           </div>
         ),
         4: () => (
-          <div className="px-3 py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center">
+          <div
+            className={`${
+              isQueryTable ? "px-12" : "px-3"
+            } py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
+          >
             9
           </div>
         ),
@@ -155,12 +168,20 @@ function HomePage() {
     {
       dataSource: {
         1: () => (
-          <div className="px-3 py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center">
+          <div
+            className={`${
+              isQueryTable ? "px-12" : "px-3"
+            } py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
+          >
             Tâm
           </div>
         ),
         2: () => (
-          <div className="px-3 py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center">
+          <div
+            className={`${
+              isQueryTable ? "px-12" : "px-3"
+            } py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
+          >
             2
           </div>
         ),
@@ -170,7 +191,11 @@ function HomePage() {
           </div>
         ),
         4: () => (
-          <div className="px-3 py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center">
+          <div
+            className={`${
+              isQueryTable ? "px-12" : "px-3"
+            } py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
+          >
             8
           </div>
         ),
@@ -204,12 +229,20 @@ function HomePage() {
     {
       dataSource: {
         1: () => (
-          <div className="px-3 py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center">
+          <div
+            className={`${
+              isQueryTable ? "px-12" : "px-3"
+            } py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
+          >
             Thân
           </div>
         ),
         2: () => (
-          <div className="px-3 py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center">
+          <div
+            className={`${
+              isQueryTable ? "px-12" : "px-3"
+            } py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
+          >
             1
           </div>
         ),
@@ -219,7 +252,11 @@ function HomePage() {
           </div>
         ),
         4: () => (
-          <div className="px-3 py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center">
+          <div
+            className={`${
+              isQueryTable ? "px-12" : "px-3"
+            } py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
+          >
             7
           </div>
         ),
@@ -427,6 +464,30 @@ function HomePage() {
       },
     },
   ];
+  const customSelectStyle = {
+    position: "relative",
+  };
+
+  const selectStyle = {
+    paddingLeft: "20px",
+    height: "48px",
+    width: "100%",
+    backgroundColor: "white",
+    borderRadius: "6px",
+    appearance: "none",
+    WebkitAppearance: "none",
+    MozAppearance: "none",
+  };
+
+  const arrowStyle = {
+    content: "''",
+    fontSize: "16px",
+    color: "black",
+    position: "absolute",
+    right: "10px",
+    top: "50%",
+    pointerEvents: "none",
+  };
   return (
     <main id="homePage">
       <section className="homePage__reason section bg-custom-pattern ">
@@ -438,7 +499,7 @@ function HomePage() {
             Tấm bản đồ - GPS (Góc nhìn của TSH)
           </div>
           <div className="homePage__reason--subdesc font-semibold sm:text-[16px] text-[12px]  leading-[28px] text-center text-white  sm:mb-[60px] mb-[20px] px-5">
-            Khám phá: Ưu - Nhược,
+            Khám phá: Ưu - Nhược
             <span className="font-[400]">
               _xu hướng phát triển (đam mê, sở trường, sợi chỉ đỏ,...)
             </span>
@@ -448,7 +509,7 @@ function HomePage() {
           </div>
         </div>
       </section>
-      <section className="homePage__form relative section bg-custom-pattern ">
+      <section className="homePage__form relative section bg-custom-pattern">
         <div className="homePage__form__container section-container flex-col flex justify-center items-center  ">
           <div className="homePage__form--title w-full flex items-center gap-7 justify-center">
             <img
@@ -516,7 +577,10 @@ function HomePage() {
                   className="pl-[20px] pr-2 h-[48px] w-full bg-white rounded-[6px]"
                 />
               </div>
-              <div className="min-[810px]:w-[344px] w-full h-fit">
+              <div
+                style={customSelectStyle}
+                className=" min-[810px]:w-[344px] w-full h-fit"
+              >
                 <label htmlFor="set" className="block mb-2 text-white size-pra">
                   Giới tính
                 </label>
@@ -524,11 +588,13 @@ function HomePage() {
                   placeholder="Giới tính"
                   className="pl-[20px] pr-2 h-[48px] w-full bg-white rounded-[6px]"
                   name="set"
+                  style={selectStyle}
                 >
                   <option>Giới tính</option>
                   <option>Nam</option>
                   <option>Nữ</option>
                 </select>
+                <span style={arrowStyle}>▼</span>
               </div>
               <button className="flex justify-center items-center gap-4 bg-[#FB6514] w-full size-title font-[700] text-white h-[48px] rounded-[6px] mt-5">
                 <CiSearch color="#fff" />
