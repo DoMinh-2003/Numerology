@@ -643,7 +643,9 @@ function HomePage() {
                   name="set"
                   style={selectStyle}
                 >
-                  <option>Giới tính</option>
+                  <option disabled selected hidden>
+                    Giới tính
+                  </option>
                   <option>Nam</option>
                   <option>Nữ</option>
                 </select>
