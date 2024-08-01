@@ -5,7 +5,7 @@ function Item({ items, background }) {
   return (
     <>
       <tr
-        className=" border-b border-black  w-fit"
+        className=" border-b border-[rgba(155,152,152,0.8)]  w-fit"
         style={{ backgroundColor: background }}
       >
         {items.map((item, index) => {
@@ -23,7 +23,7 @@ function ItemResposive({ items, background }) {
   return (
     <>
       <tr
-        className="border-b border-black "
+        className="border-b border-[rgba(155,152,152,0.8)] "
         style={{ backgroundColor: background }}
       >
         {items.map((item, index) => {
@@ -40,9 +40,10 @@ function ItemResposive({ items, background }) {
 }
 function Table({ data }) {
   const isQuery = useMediaQuery({ query: "(max-width: 755px)" });
+  const isQueryTable = useMediaQuery({ query: "(max-width: 372px)" });
   return (
     <div className="flex flex-col">
-      <table className=" rounded-[6px] w-fit overflow-hidden">
+      <table className=" rounded-[6px] w-fit overflow-hidden  ">
         {data.map((item, index) => {
           return (
             <Item
@@ -54,7 +55,11 @@ function Table({ data }) {
         })}
       </table>
       {isQuery && (
-        <table className="mt-[30px] rounded-[6px] overflow-hidden">
+        <table
+          className={`mt-[30px] ${
+            isQueryTable ? "w-[294px]" : "w-[348px]"
+          }  rounded-[6px] overflow-hidden outline-[rgba(155,152,152,0.8)] outline-[1px]`}
+        >
           {data.map((item, index) => {
             return (
               <ItemResposive
