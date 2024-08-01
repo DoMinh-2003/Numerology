@@ -832,9 +832,7 @@ function HomePage() {
                 <img
                   src={imageCharacteristic2}
                   alt=""
-                  className={`${
-                    isQuery ? "hidden" : "block"
-                  } w-fit xl:mx-0 mx-auto object-contain xl:mt-[50px]`}
+                  className={`md:block hidden w-fit xl:mx-0 mx-auto object-contain xl:mt-[50px]`}
                 />
               </div>
             </div>
