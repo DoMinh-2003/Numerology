@@ -26,7 +26,7 @@ import { CiSearch } from "react-icons/ci";
 
 function HomePage() {
   const [isOpen, setIsOpen] = useState(false);
-  const isQuery = useMediaQuery({ query: "(max-width: 400px)" });
+  const isQuery = useMediaQuery({ query: "(max-width: 450px)" });
   const isQueryTable = useMediaQuery({ query: "(max-width: 755px)" });
   const isQueryTablePhone = useMediaQuery({ query: "(max-width: 373px)" });
   const items = [
