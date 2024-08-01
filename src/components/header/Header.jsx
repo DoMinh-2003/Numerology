@@ -11,7 +11,7 @@ function Header() {
           <img src={logoDestop} className="block w-[281px] h-[37.7px]" alt="" />
         </div>
         <div className="header-wrapper flex w-1/2 justify-center items-center">
-          <ul className="header-wrapper__items flex justify-center items-stretch text-white font-[400] gap-10 mr-[70px] opacity-[80%]">
+          <ul className="header-wrapper__items flex justify-center items-stretch text-white font-[400] gap-10 mr-[50px] opacity-[80%]">
             <li>
               <div>Trang chủ</div>
             </li>
