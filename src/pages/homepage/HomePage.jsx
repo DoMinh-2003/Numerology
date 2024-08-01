@@ -600,11 +600,13 @@ function HomePage() {
                 >
                   Ngày sinh
                 </label>
-                <input
-                  type="date"
-                  name="date"
-                  className="pl-[20px] pr-2 h-[48px] w-full bg-white rounded-[6px]"
-                />
+                <div className="w-full h-fit bg-white rounded-[6px]">
+                  <input
+                    type="date"
+                    name="date"
+                    className="pl-[20px] pr-2 h-[48px] w-full bg-white rounded-[6px]"
+                  />
+                </div>
               </div>
               <div className="lg:w-[344px] w-full h-fit">
                 <label
