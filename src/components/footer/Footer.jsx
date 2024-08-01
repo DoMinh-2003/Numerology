@@ -14,20 +14,20 @@ function Footer() {
   const data = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8];
   return (
     <footer className="w-full h-fit py-[40px] bg-[#120D2E]">
-      <div className="max-w-[1270px] mx-auto">
-        <div className="w-full h-fit">
+      <div className="max-w-[1270px] mx-auto ">
+        <div className="w-full h-fit sm:leading-[70px] leading-[30px]">
           <img
             src={image1}
             className="block w-[1270px] h-[27.34px] mb-5"
             alt=""
           />
-          <p className="text-[rgba(255,255,255,1)] opacity-[80%] text-[16px] font-[400] leading-[19.36px] text-center mb-5">
+          <p className="text-[rgba(255,255,255,1)]  opacity-[80%] text-[16px] font-[400] text-center mb-5">
             Thần Số Học chỉ là một công cụ để thấu hiểu thêm về bản thân, chỉ
             nên tham khảo, không nên mắc kẹt vào các con số!
           </p>
           <img src={image2} className="block w-[1200px] mb-5" alt="" />
         </div>
-        <div className="flex justify-center gap-4 items-center flex-wrap">
+        <div className="mt-[60px] flex justify-center gap-4 items-center flex-wrap">
           <LogoFooter data={data} />
         </div>
       </div>

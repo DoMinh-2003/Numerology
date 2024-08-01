@@ -44,9 +44,9 @@ function HomePage() {
       image: reasonImage1,
       btn: () => {
         return (
-          <div className="card-btn sm:w-[327px] w-[250px] h-[85px] rounded-[6px] flex flex-col items-center justify-center bg-white">
-            <p className="text-orange-400 font-[500] text-[15px]">Sự kết hợp</p>
-            <p className="text-black font-[600] text-[20px] leading-[24px]">
+          <div className="card-btn sm:w-[327px] w-[250px] h-[85px] leading-[30px] rounded-[6px] flex flex-col items-center justify-center bg-white">
+            <p className="text-orange-400 font-[500] text-[15px] italic">Sự kết hợp</p>
+            <p className="text-black font-[600] text-[20px]">
               Ngày sinh + Họ tên
             </p>
           </div>
@@ -58,7 +58,7 @@ function HomePage() {
       desc: () => {
         return (
           <p className="size-pra font-[400]">
-            <b className="font-[600]">Hiểu mình</b>, hiểu người
+            <b className="font-[600] ">Hiểu mình</b>, hiểu người
             <br />
             Trở thành <b className="font-[600]">phiên bản tốt nhất</b> của chính
             mình
@@ -69,11 +69,11 @@ function HomePage() {
       image: reasonImage2,
       btn: () => {
         return (
-          <div className="card-btn sm:w-[327px] w-[250px] h-[85px] rounded-[6px] flex flex-col items-center justify-center bg-white">
-            <p className="text-orange-400 font-[500] text-[15px]">
+          <div className="card-btn sm:w-[327px] w-[250px] h-[85px] leading-[30px]  rounded-[6px] flex flex-col items-center justify-center bg-white">
+            <p className="text-orange-400 font-[500] text-[15px] italic">
               Trưởng thành từ bên trong
             </p>
-            <p className="text-black font-[600] text-[20px] leading-[24px]">
+            <p className="text-black font-[600] text-[20px] ">
               Sống có giá trị - Ý nghĩa
             </p>
           </div>
@@ -84,7 +84,7 @@ function HomePage() {
       title: "Nhìn thấu",
       desc: () => {
         return (
-          <p className="flex items-ce nter flex-col">
+          <p className="flex items-center flex-col">
             <b className="font-[600]">Để biết + Kinh nghiệm + sử dụng</b>
             <img
               className="block w-[16px] h-[14.22px] mt-0 sm:mt-2"
@@ -539,10 +539,10 @@ function HomePage() {
           <div className="homePage__reason--desc font-bold sm:text-[18px] text-[14px]  sm:leading-[28px] text-center text-[#FB6514] mb-[10px] px-5">
             Tấm bản đồ - GPS (Góc nhìn của TSH)
           </div>
-          <div className="homePage__reason--subdesc font-semibold sm:text-[16px] text-[12px]  leading-[28px] text-center text-white  sm:mb-[60px] mb-[20px] px-5">
+          <div className="homePage__reason--subdesc font-semibold sm:text-[16px] text-[16px] font-[600] opacity-[80%] leading-[28px] text-center text-white  sm:mb-[60px] mb-[20px] px-5">
             Khám phá: Ưu - Nhược
             <span className="font-[400]">
-              _xu hướng phát triển (đam mê, sở trường, sợi chỉ đỏ,...)
+              , xu hướng phát triển (đam mê, sở trường, sợi chỉ đỏ,...)
             </span>
           </div>
           <div className="homePage__reason--wrapper flex justify-center items-center flex-wrap gap-5">
@@ -552,13 +552,13 @@ function HomePage() {
       </section>
       <section className="homePage__form relative section bg-custom-pattern">
         <div className="homePage__form__container section-container flex-col flex justify-center items-center  ">
-          <div className="homePage__form--title w-full flex items-center gap-7 justify-center">
+          <div className="homePage__form--title w-full flex items-center gap-7 mb-5 justify-center">
             <img
               src={other1}
               className="hidden xl:inline-block w-auto h-[11.31px] mr-2"
               alt=""
             />
-            <h1 className="text-white mb-5 xl:text-[36px] text-[25px] font-[700] text-center">
+            <h1 className="text-white  xl:text-[36px] text-[25px] font-[700] text-center">
               Xem thần số học online
             </h1>
             <img
@@ -567,7 +567,7 @@ function HomePage() {
               alt=""
             />
           </div>
-          <div className="homePage__finish--desc text-[14px] leading-[21.78px] mb-[30px] xl:mb-[60px] font-[500] text-center text-[#FB6514]">
+          <div className="homePage__finish--desc text-[18x] leading-[21.78px] mb-[30px] xl:mb-[60px] font-[600] text-center text-[#FB6514]">
             <p>
               Nhập tên và ngày sinh của bạn để luận giải sự nghiệp, vận mệnh,
               <p className="inline-block sm:block">
@@ -662,13 +662,13 @@ function HomePage() {
       </section>
       <section className="homePage__pythagore section   bg-[#F9F9F9]">
         <div className="homePage__pythagore__container overflow-hidden section-container">
-          <div className="homePage__pythagore--title w-full flex items-center  justify-center">
+          <div className="homePage__pythagore--title w-full mb-5 flex items-center  justify-center">
             <img
               src={other1}
               className="inline-block w-fit h-[11.31px] mr-2"
               alt=""
             />
-            <h1 className="size-label px-[10px] font-[700] text-center">
+            <h1 className="size-label-h1 px-[10px] font-[700] text-center">
               Pythagore
             </h1>
             <img
@@ -677,7 +677,7 @@ function HomePage() {
               alt=""
             />
           </div>
-          <div className="homePage__pythagore--desc text-[18px] leading-[21.78px] mb-[30px] xl:mb-[60px] font-[500] text-center text-[#FB6514]">
+          <div className="homePage__pythagore--desc text-[18px] leading-[21.78px] opacity-[70%] mb-[30px] xl:mb-[60px] font-[500] text-center text-[#FB6514]">
             <p>Nhà khoa học, toán học, triết học, nhà giáo dục, nhà tâm linh</p>
           </div>
           <div className="homePage__pythagore--wrapper w-full flex justify-start xl:justify-center items-start flex-wrap xl:gap-0 gap-3">
@@ -859,13 +859,13 @@ function HomePage() {
       </section>
       <section className="homePage__table section">
         <div className="homePage__table__container section-container">
-          <div className="homePage__table--title w-full flex items-center gap-7 justify-center">
+          <div className="homePage__table--title w-full mb-5 flex items-center gap-7 justify-center">
             <img
               src={other1}
               className="hidden xl:inline-block w-auto h-[11.31px] mr-2"
               alt=""
             />
-            <h1 className="mb-5 xl:text-[36px] text-[32px] font-[700] text-center">
+            <h1 className=" xl:text-[36px] text-[32px] font-[700] text-center">
               Năng lượng các con số
             </h1>
             <img
@@ -874,8 +874,8 @@ function HomePage() {
               alt=""
             />
           </div>
-          <div className="homePage__pythagore--desc text-[18px] leading-[21.78px] mb-[30px] xl:mb-[60px] font-[500] text-center text-[#FB6514]">
-            <p>Linh hồn trưởng thành: Sâu sắc để sẻ chia, bật thầy</p>
+          <div className="homePage__pythagore--desc text-[18px] leading-[21.78px] mb-[30px] opacity-[80%] xl:mb-[60px] font-[500] text-center text-[#FB6514]">
+            <p><b className="font-[700]">Linh hồn trưởng thành:</b> Sâu sắc để sẻ chia, bật thầy</p>
           </div>
           <div className="homePage__pythagore--wrapper flex items-center justify-center gap-[50px]">
             <Table data={data} />
@@ -904,7 +904,7 @@ function HomePage() {
               alt=""
             />
           </div>
-          <div className="homePage__finish--desc text-[18px] leading-[21.78px]  mb-[30px] xl:mb-[60px] font-[500] text-center text-[#FB6514]">
+          <div className="homePage__finish--desc text-[18px] leading-[21.78px] opacity-[80%]  mb-[30px] xl:mb-[60px] font-[500] text-center text-[#FB6514]">
             <p>9 con số + Số bậc thầy, 3 Gốc - 3 Độc</p>
           </div>
           <div className="homePage__finish--wrapper rounded-[12px] flex  justify-center lg-max:flex-col  px-[30px] gap-3    sm:py-[50px] lg:border-[1px] lg:border-[rgba(155,152,152,0.8) bg-transparent lg:bg-[rgba(255,255,255,0.12)] backdrop-blur-md ">
