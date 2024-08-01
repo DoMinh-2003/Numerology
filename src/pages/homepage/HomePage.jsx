@@ -5,6 +5,7 @@ import reasonImage3 from "../../images/reasonImage_3.png";
 import image1 from "../../images/image_2.png";
 import arrow from "../../images/arrow.png";
 import vector from "../../images/vector.png";
+import vector1 from "../../images/vector1.png";
 import arrow2 from "../../images/arrow2.png";
 import frame from "../../images/Frame_8.png";
 import other1 from "../../images/other1.png";
@@ -600,12 +601,16 @@ function HomePage() {
                 >
                   Ngày sinh
                 </label>
-                <div className="w-full h-fit bg-white rounded-[6px]">
+                <div className="w-full flex items-center h-fit relative bg-white rounded-[6px]">
                   <input
+                    style={selectStyle}
                     type="date"
                     name="date"
                     className="pl-[20px] pr-2 h-[48px] w-full bg-white rounded-[6px]"
                   />
+                  <span className="absolute right-2.5 top-[30%] pointer-events-none">
+                    <img src={vector1} alt="" />
+                  </span>
                 </div>
               </div>
               <div className="lg:w-[344px] w-full h-fit">

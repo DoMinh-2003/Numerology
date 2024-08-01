@@ -10,3 +10,6 @@
 .homePage__finish {
   background: url("../../images/background_finish.png");
 }
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
