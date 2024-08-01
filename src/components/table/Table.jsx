@@ -29,7 +29,7 @@ function ItemResposive({ items, background }) {
         {items.map((item, index) => {
           if (items.length == index + 1 && isQuery) {
             return (
-              <td className=" inline-block h-full px-3 py-3 ">{item()}</td>
+              <td className=" inline-block h-full pl-3 pr-1 py-3 ">{item()}</td>
             );
           }
           return;

@@ -317,9 +317,7 @@ function HomePage() {
               className="inline-block w-[32px] h-[17.72px] mr-2"
               alt=""
             />
-            <p className="size-pra font-[600]">
-              Học hỏi, tư duy, sáng tạo, triết lý
-            </p>
+            <p className="size-pra font-[600]">Thực tế, tổ chức, vật chất</p>
           </div>
         ),
       },
