@@ -6,7 +6,7 @@ import image1 from "../../images/image_2.png";
 import arrow from "../../images/arrow.png";
 import vector from "../../images/vector.png";
 import vector1 from "../../images/vector1.png";
-import arrow2 from "../../images/arrow2.png";
+import arrow2 from "../../images/Group.png";
 import frame from "../../images/Frame_8.png";
 import other1 from "../../images/other1.png";
 import other2 from "../../images/other2.png";
