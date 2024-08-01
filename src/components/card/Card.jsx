@@ -12,10 +12,10 @@ function CardItem({ title, image, desc, subDesc, btn }) {
         </h3>
       </div>
 
-      <div className="card-desc opacity-[80%] sm:font-[400] font-[200] sm:w-[290px] w-[270px] sm:text-[14px] text-[13px]  leading-[24px] text-center sm:mb-5">
+      <div className="card-desc opacity-[80%] sm:font-[400] font-[200] sm:w-[290px] w-[270px] sm:text-[14px] text-[13px] leading-[24px] text-center ">
         {desc()}
       </div>
-      <div className="card-subDesc opacity-[80%] font-[400] text-[15px] leading-[24px] text-center mb-5">
+      <div className="card-subDesc opacity-[80%] font-[400] text-[15px] leading-[24px] text-center pb-6">
         <p>{subDesc}</p>
       </div>
       <div>{btn()}</div>

@@ -36,6 +36,7 @@ function HomePage() {
         return (
           <p className="font-[400]">
             <b className="font-[600]">Vạn vật</b> là dạng sóng rung, tần số và
+            <br />
             năng lượng.
           </p>
         );
@@ -87,17 +88,17 @@ function HomePage() {
           <p className="flex items-center flex-col">
             <b className="font-[600]">Để biết + Kinh nghiệm + sử dụng</b>
             <img
-              className="block w-[16px] h-[14.22px] mt-0 sm:mt-2"
+              className="block w-[16px] h-[14.22px] mt-0 sm:mt-1"
               src={arrow}
               alt=""
             />
-            <b className="font-[600]">Không dính mắc + Chối bỏ</b>
+            <b className="font-[600] sm:mb-1">Không dính mắc + Chối bỏ</b>
           </p>
         );
       },
       subDesc: (
         <img
-          className="block w-[16px] h-[14.22px] mt-0 sm:-mt-3"
+          className="block w-[16px] h-[14.22px] mt-0 sm:-mt-3 sm:translate-y-[15px]"
           src={arrow}
           alt=""
         />
