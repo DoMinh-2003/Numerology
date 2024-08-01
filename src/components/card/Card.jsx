@@ -2,7 +2,7 @@ import React from "react";
 
 function CardItem({ title, image, desc, subDesc, btn }) {
   return (
-    <div className="sm:w-[379px] w-[290px] sm:h-[401px] h-[350px] rounded-[12px] border-[1px] text-white flex  flex-col items-center text-center bg-[rgba(255,255,255,0.2)]">
+    <div className="sm:w-[379px] w-[290px] sm:h-[401px] h-[350px] rounded-[12px] border-[rgba(155,152,152,0.8)] border-[1px] text-white flex  flex-col items-center text-center bg-[rgba(255,255,255,0.12)] backdrop-blur-md">
       <div className="card-image mt-4 sm:mb-7 mb-3">
         <img src={image} className="block w-[80px] h-[80px]" alt="" />
       </div>
