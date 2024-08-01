@@ -601,12 +601,11 @@ function HomePage() {
                 >
                   Ngày sinh
                 </label>
-                <div className="w-full flex items-center h-fit relative bg-white rounded-[6px]">
+                <div className="w-full flex z-10 items-center h-fit relative bg-white rounded-[6px]">
                   <input
                     style={selectStyle}
                     type="date"
                     name="date"
-                    placeholder="dd/mm/yyyy"
                     className="pl-[20px] pr-2 h-[48px] w-full bg-white rounded-[6px]"
                   />
                   <span className="absolute right-2.5 top-[30%] pointer-events-none">
