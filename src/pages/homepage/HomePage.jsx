@@ -165,7 +165,7 @@ function HomePage() {
           </div>
         ),
         5: () => (
-          <div className="flex items-center justify-center ml-[30px] mr-[10px] xl:mr-[100px]">
+          <div className="flex items-center justify-center md:ml-[30px] mr-[10px] xl:mr-[100px]">
             <span className=" px-2 py-2  bg-[#C2E3F9] text-center rounded-[6px] mr-2">
               30
             </span>
@@ -232,7 +232,7 @@ function HomePage() {
           </div>
         ),
         5: () => (
-          <div className="flex items-center justify-center ml-[30px] mr-[10px] xl:mr-[100px]">
+          <div className="flex items-center justify-center md:ml-[30px] mr-[10px] xl:mr-[100px]">
             <span className=" px-2 py-2  bg-[#ffe4b3] text-center rounded-[6px]  mr-2">
               20
             </span>
@@ -305,7 +305,7 @@ function HomePage() {
           </div>
         ),
         5: () => (
-          <div className="flex items-center justify-start  ml-[30px] mr-[10px] xl:mr-[100px]">
+          <div className="flex items-center justify-start  md:ml-[30px] mr-[10px] xl:mr-[100px]">
             <span className=" px-2 py-2 bg-[#ffc9c9] text-center rounded-[6px] mr-2">
               10
             </span>
