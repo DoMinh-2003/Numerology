@@ -34,8 +34,9 @@ function HomePage() {
       title: "Khởi đầu",
       desc: () => {
         return (
-          <p>
-            <b>Vạn vật</b> là dạng sóng rung, tần số và năng lượng.
+          <p className="font-[400]">
+            <b className="font-[600]">Vạn vật</b> là dạng sóng rung, tần số và
+            năng lượng.
           </p>
         );
       },
@@ -44,8 +45,8 @@ function HomePage() {
       btn: () => {
         return (
           <div className="card-btn sm:w-[327px] w-[250px] h-[85px] rounded-[6px] flex flex-col items-center justify-center bg-white">
-            <p className="text-orange-400">Sự kết hợp</p>
-            <p className="text-black font-[600] text-[15px] leading-[24px]">
+            <p className="text-orange-400 font-[500] text-[15px]">Sự kết hợp</p>
+            <p className="text-black font-[600] text-[20px] leading-[24px]">
               Ngày sinh + Họ tên
             </p>
           </div>
@@ -56,10 +57,11 @@ function HomePage() {
       title: "Nhận biết",
       desc: () => {
         return (
-          <p className="size-pra">
-            <b>Hiểu mình</b>, hiểu người
+          <p className="size-pra font-[400]">
+            <b className="font-[600]">Hiểu mình</b>, hiểu người
             <br />
-            Trở thành <b>phiên bản tốt nhất</b> của chính mình
+            Trở thành <b className="font-[600]">phiên bản tốt nhất</b> của chính
+            mình
           </p>
         );
       },
@@ -68,8 +70,10 @@ function HomePage() {
       btn: () => {
         return (
           <div className="card-btn sm:w-[327px] w-[250px] h-[85px] rounded-[6px] flex flex-col items-center justify-center bg-white">
-            <p className="text-orange-400">Trưởng thành từ bên trong</p>
-            <p className="text-black font-[600] text-[15px] leading-[24px]">
+            <p className="text-orange-400 font-[500] text-[15px]">
+              Trưởng thành từ bên trong
+            </p>
+            <p className="text-black font-[600] text-[20px] leading-[24px]">
               Sống có giá trị - Ý nghĩa
             </p>
           </div>
@@ -80,14 +84,14 @@ function HomePage() {
       title: "Nhìn thấu",
       desc: () => {
         return (
-          <p className="flex items-center flex-col">
-            <b>Để biết + Kinh nghiệm + sử dụng</b>
+          <p className="flex items-ce nter flex-col">
+            <b className="font-[600]">Để biết + Kinh nghiệm + sử dụng</b>
             <img
               className="block w-[16px] h-[14.22px] mt-0 sm:mt-2"
               src={arrow}
               alt=""
             />
-            <b>Không dính mắc + Chối bỏ</b>
+            <b className="font-[600]">Không dính mắc + Chối bỏ</b>
           </p>
         );
       },
@@ -551,7 +555,7 @@ function HomePage() {
           <div className="homePage__form--title w-full flex items-center gap-7 justify-center">
             <img
               src={other1}
-              className="hidden min-[1070px]:inline-block w-auto h-[11.31px] mr-2"
+              className="hidden xl:inline-block w-auto h-[11.31px] mr-2"
               alt=""
             />
             <h1 className="text-white mb-5 xl:text-[36px] text-[25px] font-[700] text-center">
@@ -559,7 +563,7 @@ function HomePage() {
             </h1>
             <img
               src={other2}
-              className="hidden min-[1070px]:inline-block w-auto h-[11.31px] ml-2"
+              className="hidden xl:inline-block w-auto h-[11.31px] ml-2"
               alt=""
             />
           </div>
@@ -571,12 +575,12 @@ function HomePage() {
               </p>
             </p>
           </div>
-          <div className="max-w-[804px] rounded-[5px] h-fit px-[20px] sm:px-[30px] gap-3 py-[10px] sm:py-[50px] border-[1px]  bg-[rgba(255,255,255,0.2)]">
+          <div className="max-w-[804px] rounded-[5px] h-fit px-[20px] sm:px-[50px] gap-3 py-[10px] sm:py-[50px] border-[rgba(155,152,152,0.8)] border-[1px] bg-[rgba(255,255,255,0.12)] backdrop-blur-md ">
             <form className="gap-3 w-full flex justify-center items-center flex-wrap mb-[20px]">
-              <div className="min-[810px]:w-[344px] w-full h-fit">
+              <div className="lg:w-[344px] w-full h-fit">
                 <label
                   htmlFor="fullname"
-                  className="block mb-2 text-white size-pra"
+                  className="block mb-2 text-[rgba(255,255,255,1)] font-[600] text-[16px]"
                 >
                   Họ và tên
                 </label>
@@ -587,10 +591,10 @@ function HomePage() {
                   className="pl-[20px] pr-2 h-[48px] w-full bg-white rounded-[6px]"
                 />
               </div>
-              <div className="min-[810px]:w-[344px] w-full h-fit">
+              <div className="lg:w-[344px] w-full h-fit">
                 <label
                   htmlFor="date"
-                  className="block mb-2 text-white size-pra"
+                  className="block mb-2 text-[rgba(255,255,255,1)] font-[600] text-[16px]"
                 >
                   Ngày sinh
                 </label>
@@ -600,10 +604,10 @@ function HomePage() {
                   className="pl-[20px] pr-2 h-[48px] w-full bg-white rounded-[6px]"
                 />
               </div>
-              <div className="min-[810px]:w-[344px] w-full h-fit">
+              <div className="lg:w-[344px] w-full h-fit">
                 <label
                   htmlFor="authorname"
-                  className="block mb-2 text-white size-pra"
+                  className="block mb-2 text-[rgba(255,255,255,1)] font-[600] text-[16px]"
                 >
                   Tên tác ý
                 </label>
@@ -616,9 +620,12 @@ function HomePage() {
               </div>
               <div
                 style={customSelectStyle}
-                className=" min-[810px]:w-[344px] w-full h-fit"
+                className=" lg:w-[344px] w-full h-fit"
               >
-                <label htmlFor="set" className="block mb-2 text-white size-pra">
+                <label
+                  htmlFor="set"
+                  className="block mb-2 text-[rgba(255,255,255,1)]  font-[600] text-[16px]"
+                >
                   Giới tính
                 </label>
                 <select
@@ -655,10 +662,10 @@ function HomePage() {
       </section>
       <section className="homePage__pythagore section   bg-[#F9F9F9]">
         <div className="homePage__pythagore__container overflow-hidden section-container">
-          <div className="homePage__pythagore--title w-full flex items-center gap-0 sm:gap-7 justify-center">
+          <div className="homePage__pythagore--title w-full flex items-center  justify-center">
             <img
               src={other1}
-              className="inline-block w-[481.28px] h-[11.31px] mr-2"
+              className="inline-block w-fit h-[11.31px] mr-2"
               alt=""
             />
             <h1 className="size-label px-[10px] font-[700] text-center">
@@ -666,7 +673,7 @@ function HomePage() {
             </h1>
             <img
               src={other2}
-              className="inline-block w-[481.28px] h-[11.31px] ml-2"
+              className="inline-block w-fit h-[11.31px] ml-2"
               alt=""
             />
           </div>
@@ -679,14 +686,15 @@ function HomePage() {
                 <h1 className="size-title font-[700] sm:mb-5 mb-3">
                   Tư tưởng của Pythagore
                 </h1>
-                <div className="box-desc size-pra font-[400]">
+                <div className="box-desc size-pra font-[400] text-[15px]">
                   <p>
-                    <b>Pythagore</b> xuất phát từ khoa học Ai Cập Cổ Đại, là
-                    trung tâm giáo dục của Atlantic cực kỳ phát triển thời xưa
+                    <b className="font-[700] text-[15px]">Pythagore</b> xuất
+                    phát từ khoa học Ai Cập Cổ Đại, là trung tâm giáo dục của
+                    Atlantic cực kỳ phát triển thời xưa
                   </p>
                   <p>
-                    Ông cho rằng:
-                    <b>
+                    Ông cho rằng: <span> </span>
+                    <b className="font-[700] text-[15px]">
                       Linh hồn con người là bất từ, chúng ta sống để học bài học
                       trưởng thành của linh hồn
                     </b>
@@ -695,9 +703,11 @@ function HomePage() {
                     hồn.
                   </p>
                   <p>
-                    <b>Rung động của từng linh hồn</b> được đại diện và kết hợp
-                    bởi rung động năng lượng riêng của từng thần số từ 1 đến 9
-                    và những kết hợp đa dạng của nó.
+                    <b className="font-[700] text-[15px]">
+                      Rung động của từng linh hồn
+                    </b>{" "}
+                    được đại diện và kết hợp bởi rung động năng lượng riêng của
+                    từng thần số từ 1 đến 9 và những kết hợp đa dạng của nó.
                   </p>
                 </div>
               </div>
@@ -734,15 +744,20 @@ function HomePage() {
                 Mục đích sau cùng
               </h1>
               <div className="box-desc size-pra font-[400]">
-                <b>Xác định con người có thể phát triển theo ba cách</b>
+                <b className="font-[700] text-[15px]">
+                  Xác định con người có thể phát triển theo ba cách
+                </b>
                 <p>
                   <img
                     src={arrow2}
                     className="inline-block w-[18px] h-[15px] mr-2"
                     alt=""
                   />
-                  <b>Đối thoại với thượng đế:</b> Tránh xa các việc ác, noi
-                  gương các bật Thánh, tập sống trong công hạnh các ngài.
+                  <b className="font-[700] text-[15px]">
+                    Đối thoại với thượng đế:
+                  </b>{" "}
+                  Tránh xa các việc ác, noi gương các bật Thánh, tập sống trong
+                  công hạnh các ngài.
                 </p>
                 <p>
                   <img
@@ -750,7 +765,8 @@ function HomePage() {
                     className="inline-block w-[18px] h-[15px] mr-2"
                     alt=""
                   />
-                  Bằng tài năng (trí tuệ), đó là đức tính của <b>Thánh nhân.</b>
+                  Bằng tài năng (trí tuệ), đó là đức tính của{" "}
+                  <b className="font-[700] text-[15px]">Thánh nhân.</b>
                 </p>
                 <p>
                   <img
@@ -758,9 +774,11 @@ function HomePage() {
                     className="inline-block w-[18px] h-[15px] mr-2"
                     alt=""
                   />
-                  Bằng niềm khát khao cho sự
-                  <b>thoát ly thanh thản nhẹ nhàng linh hồn ra khỏi thể xác</b>,
-                  như là kết qủa từ rèn luyện để thăng hoa linh hồn...
+                  Bằng niềm khát khao cho sự <span> </span>
+                  <b className="font-[700] text-[15px]">
+                    thoát ly thanh thản nhẹ nhàng linh hồn ra khỏi thể xác
+                  </b>
+                  , như là kết qủa từ rèn luyện để thăng hoa linh hồn...
                 </p>
               </div>
             </div>
@@ -781,14 +799,15 @@ function HomePage() {
           </div>
           <div className="homepage__characteristic--wrapper flex w-full justify-center flex-wrap">
             <div className="box-contents text-white xl:mb-0 mb-[50px] xl:mr-[210px] h-fit size-pra xl:w-[429px] xl:h-[310px] w-full ">
-              <div className="box-items  sm:mb-[20px]  px-3">
+              <div className="box-items text-[15px]  sm:mb-[20px]  px-3 font-[400] ">
                 <p>
                   <img
                     src={vector}
                     className="inline-block w-[20px] h-[19.74px] mr-2"
                     alt=""
                   />
-                  <b>Khoa học:</b> Có tính logic
+                  <b className="font-[600] text-[15px]">Khoa học:</b> Có tính
+                  logic
                 </p>
                 <p>
                   <img
@@ -796,7 +815,8 @@ function HomePage() {
                     className="inline-block w-[20px] h-[19.74px] mr-2"
                     alt=""
                   />
-                  <b>Triết gia:</b> Đi vào chiều sâu
+                  <b className="font-[600] text-[15px]">Triết gia:</b> Đi vào
+                  chiều sâu
                 </p>
                 <p>
                   <img
@@ -804,8 +824,8 @@ function HomePage() {
                     className="inline-block w-[20px] h-[19.74px] mr-2"
                     alt=""
                   />
-                  <b>Giáo dục:</b> Phát triển con người và tầm nhìn quan trọng
-                  về trương lai
+                  <b className="font-[600] text-[15px]">Giáo dục:</b> Phát triển
+                  con người và tầm nhìn quan trọng về trương lai
                 </p>
               </div>
               <div className={`${isQuery ? " w-full" : "px-3"} `}>
@@ -814,7 +834,7 @@ function HomePage() {
                   alt=""
                   className={`${
                     isQuery ? "hidden" : "block"
-                  } w-[535px] xl:mx-0 mx-auto object-contain h-fit xl:mt-3`}
+                  } w-fit xl:mx-0 mx-auto object-contain xl:mt-[50px]`}
                 />
               </div>
             </div>
@@ -822,14 +842,14 @@ function HomePage() {
               <div
                 className={`box-image w-fit xl:mx-0 mx-auto  xl:w-fit px-[30px] ${
                   isQuery ? "" : "rounded-[12px] border-[1px]"
-                } py-[50px]  bg-[rgba(255,255,255,0.2)]  relative`}
+                } py-[50px] border-[rgba(155,152,152,0.8)] border-[1px] bg-[rgba(255,255,255,0.12)] backdrop-blur-md  relative`}
               >
                 <img
                   src={imageCharacteristic}
                   alt=""
                   className="block w-[535px] object-contain h-fit xl:mt-3"
                 />
-                <div className="absolute left-6 top-3  bg-[rgba(255,255,255,0.2)] font-[700] block xl:hidden text-white rounded-[6px] px-4 py-3">
+                <div className="absolute left-6 top-3  border-[rgba(155,152,152,0.8)] border-[1px] bg-[rgba(255,255,255,0.12)] backdrop-blur-md  font-[700] block xl:hidden text-white rounded-[6px] px-4 py-3">
                   Giải thích
                 </div>
               </div>
@@ -842,7 +862,7 @@ function HomePage() {
           <div className="homePage__table--title w-full flex items-center gap-7 justify-center">
             <img
               src={other1}
-              className="hidden min-[1070px]:inline-block w-auto h-[11.31px] mr-2"
+              className="hidden xl:inline-block w-auto h-[11.31px] mr-2"
               alt=""
             />
             <h1 className="mb-5 xl:text-[36px] text-[32px] font-[700] text-center">
@@ -850,7 +870,7 @@ function HomePage() {
             </h1>
             <img
               src={other2}
-              className="hidden min-[1070px]:inline-block w-auto h-[11.31px] ml-2"
+              className="hidden xl:inline-block w-auto h-[11.31px] ml-2"
               alt=""
             />
           </div>
@@ -872,7 +892,7 @@ function HomePage() {
           <div className="homePage__finish--title w-full flex items-center gap-7 justify-center">
             <img
               src={other1}
-              className="hidden min-[1070px]:inline-block w-auto h-[11.31px] mr-2"
+              className="hidden xl:inline-block w-auto h-[11.31px] mr-2"
               alt=""
             />
             <h1 className="text-white mb-5 xl:text-[36px] text-[32px] font-[700] text-center">
@@ -880,14 +900,14 @@ function HomePage() {
             </h1>
             <img
               src={other2}
-              className="hidden min-[1070px]:inline-block w-auto h-[11.31px] ml-2"
+              className="hidden xl:inline-block w-auto h-[11.31px] ml-2"
               alt=""
             />
           </div>
           <div className="homePage__finish--desc text-[18px] leading-[21.78px]  mb-[30px] xl:mb-[60px] font-[500] text-center text-[#FB6514]">
             <p>9 con số + Số bậc thầy, 3 Gốc - 3 Độc</p>
           </div>
-          <div className="homePage__finish--wrapper rounded-[12px] flex  justify-center lg-max:flex-col  px-[30px] gap-3 sm:py-[50px] lg:border-[1px] lg:bg-[rgba(255,255,255,0.2)]">
+          <div className="homePage__finish--wrapper rounded-[12px] flex  justify-center lg-max:flex-col  px-[30px] gap-3    sm:py-[50px] lg:border-[1px] lg:border-[rgba(155,152,152,0.8) bg-transparent lg:bg-[rgba(255,255,255,0.12)] backdrop-blur-md ">
             <div className="flex flex-col items-center gap-5">
               <CardFinish data={dataFinish.slice(0, 3)} startIndex={0} />
             </div>

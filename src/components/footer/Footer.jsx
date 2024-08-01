@@ -21,7 +21,7 @@ function Footer() {
             className="block w-[1270px] h-[27.34px] mb-5"
             alt=""
           />
-          <p className="text-white text-[16px] font-[400] leading-[19.36px] text-center mb-5">
+          <p className="text-[rgba(255,255,255,1)] opacity-[80%] text-[16px] font-[400] leading-[19.36px] text-center mb-5">
             Thần Số Học chỉ là một công cụ để thấu hiểu thêm về bản thân, chỉ
             nên tham khảo, không nên mắc kẹt vào các con số!
           </p>

@@ -20,3 +20,6 @@
 .size-label {
   @apply sm:text-[48px] sm:leading-[70px] text-center mb-[16.8px] sm:mb-[30px] text-[28px] leading-[35px];
 }
+img {
+  object-fit: contain;
+}
