@@ -166,7 +166,7 @@ function HomePage() {
           </div>
         ),
         5: () => (
-          <div className="flex items-center justify-center ml-[5px] mr-[10px] xl:mr-[100px]">
+          <div className="flex items-center justify-center md:ml-[px] mr-[10px] xl:mr-[100px]">
             <span className=" px-2 py-2  bg-[#C2E3F9] text-center rounded-[6px] mr-2">
               30
             </span>
@@ -233,7 +233,7 @@ function HomePage() {
           </div>
         ),
         5: () => (
-          <div className="flex items-center justify-center ml-[5px] mr-[10px] xl:mr-[100px]">
+          <div className="flex items-center justify-center md:ml-[px] mr-[10px] xl:mr-[100px]">
             <span className=" px-2 py-2  bg-[#ffe4b3] text-center rounded-[6px]  mr-2">
               20
             </span>
@@ -306,7 +306,7 @@ function HomePage() {
           </div>
         ),
         5: () => (
-          <div className="flex items-center justify-start  ml-[5px] mr-[10px] xl:mr-[100px]">
+          <div className="flex items-center justify-start  md:ml-[px] mr-[10px] xl:mr-[100px]">
             <span className=" px-2 py-2 bg-[#ffc9c9] text-center rounded-[6px] mr-2">
               10
             </span>
@@ -908,7 +908,7 @@ function HomePage() {
               className="hidden xl:inline-block w-auto h-[11.31px] mr-2"
               alt=""
             />
-            <h1 className="text-white mb-5 xl:text-[36px] text-[32px] font-[700] text-center">
+            <h1 className="text-white  xl:text-[36px] text-[32px] font-[700] text-center">
               Đúc kết ngắn gọn
             </h1>
             <img
