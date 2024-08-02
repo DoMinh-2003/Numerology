@@ -6,7 +6,7 @@ function LogoFooter({ data }) {
       {data.map((item, index) => (
         <div
           key={index}
-          className="flex justify-center items-center w-[60px] sm:w-[132px] bg-white h-[40.47px] sm:h-[70.47px] rounded-[6px]"
+          className="flex justify-center items-center w-[70px] sm:w-[132px] bg-white h-[40.47px] sm:h-[70.47px] rounded-[6px]"
         >
           <img
             src={item}
