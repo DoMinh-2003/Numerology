@@ -34,7 +34,7 @@ function HomePage() {
       title: "Khởi đầu",
       desc: () => {
         return (
-          <p className="font-[400]">
+          <p className="size-pra-plus font-[400]">
             <b className="font-[600]">Vạn vật</b> là dạng sóng rung, tần số và
             <br />
             năng lượng.
@@ -58,7 +58,7 @@ function HomePage() {
       title: "Nhận biết",
       desc: () => {
         return (
-          <p className="size-pra font-[400]">
+          <p className="size-pra-plus font-[400]">
             <b className="font-[600] ">Hiểu mình</b>, hiểu người
             <br />
             Trở thành <b className="font-[600]">phiên bản tốt nhất</b> của chính

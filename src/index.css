@@ -17,6 +17,9 @@
 .size-pra {
   @apply sm:text-[13px] text-[11px]  leading-[24px];
 }
+.size-pra-plus {
+  @apply sm:text-[13px] text-[12.5px]  leading-[24px];
+}
 .size-label {
   @apply sm:text-[48px] sm:leading-[70px] text-center mb-[16.8px] sm:mb-[20px] text-[28px] leading-[35px];
 }
