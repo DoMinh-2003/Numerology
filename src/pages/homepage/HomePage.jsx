@@ -46,7 +46,9 @@ function HomePage() {
       btn: () => {
         return (
           <div className="card-btn sm:w-[327px] w-[250px] h-[85px] leading-[30px] rounded-[6px] flex flex-col items-center justify-center bg-white">
-            <p className="text-orange-400 font-[500] text-[15px] italic">Sự kết hợp</p>
+            <p className="text-orange-400 font-[500] text-[15px] italic">
+              Sự kết hợp
+            </p>
             <p className="text-black font-[600] text-[20px]">
               Ngày sinh + Họ tên
             </p>
@@ -163,7 +165,7 @@ function HomePage() {
           </div>
         ),
         5: () => (
-          <div className="flex items-center justify-center ml-[30px] mr-[] xl:mr-[100px]">
+          <div className="flex items-center justify-center ml-[5px] mr-[10px] xl:mr-[100px]">
             <span className=" px-2 py-2  bg-[#C2E3F9] text-center rounded-[6px] mr-2">
               30
             </span>
@@ -230,7 +232,7 @@ function HomePage() {
           </div>
         ),
         5: () => (
-          <div className="flex items-center justify-center ml-[30px] mr-[] xl:mr-[100px]">
+          <div className="flex items-center justify-center ml-[5px] mr-[10px] xl:mr-[100px]">
             <span className=" px-2 py-2  bg-[#ffe4b3] text-center rounded-[6px]  mr-2">
               20
             </span>
@@ -303,7 +305,7 @@ function HomePage() {
           </div>
         ),
         5: () => (
-          <div className="flex items-center justify-start  ml-[30px] mr-[] xl:mr-[100px]">
+          <div className="flex items-center justify-start  ml-[5px] mr-[10px] xl:mr-[100px]">
             <span className=" px-2 py-2 bg-[#ffc9c9] text-center rounded-[6px] mr-2">
               10
             </span>
@@ -874,7 +876,10 @@ function HomePage() {
             />
           </div>
           <div className="homePage__pythagore--desc text-[18px] leading-[21.78px] mb-[30px] opacity-[80%] xl:mb-[60px] font-[500] text-center text-[#FB6514]">
-            <p><b className="font-[700]">Linh hồn trưởng thành:</b> Sâu sắc để sẻ chia, bật thầy</p>
+            <p>
+              <b className="font-[700]">Linh hồn trưởng thành:</b> Sâu sắc để sẻ
+              chia, bật thầy
+            </p>
           </div>
           <div className="homePage__pythagore--wrapper flex items-center justify-center gap-[50px]">
             <Table data={data} />
