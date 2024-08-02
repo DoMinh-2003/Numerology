@@ -6,6 +6,7 @@ import image1 from "../../images/image_2.png";
 import arrow from "../../images/arrow.png";
 import vector from "../../images/vector.png";
 import arrow2 from "../../images/arrow2.png";
+import vector1 from "../../images/Group.png";
 import frame from "../../images/Frame_8.png";
 import other1 from "../../images/other1.png";
 import other2 from "../../images/other2.png";
@@ -128,7 +129,7 @@ function HomePage() {
                 : isQueryTable
                 ? "w-[90px]"
                 : "px-3"
-            } py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
+            } py-4 border-r border-[rgba(155,152,152,0.8)] w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
           >
             Trí
           </div>
@@ -141,13 +142,13 @@ function HomePage() {
                 : isQueryTable
                 ? "w-[90px]"
                 : "px-3"
-            } py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
+            } py-4 border-r border-[rgba(155,152,152,0.8)] w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
           >
             3
           </div>
         ),
         3: () => (
-          <div className="px-3 py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px]  flex justify-center items-center">
+          <div className="px-3 py-4 border-r border-[rgba(155,152,152,0.8)] w-[70px] text-[20px] font-[600] leading-[29.05px]  flex justify-center items-center">
             6
           </div>
         ),
@@ -159,7 +160,7 @@ function HomePage() {
                 : isQueryTable
                 ? "w-[90px]"
                 : "px-3"
-            } py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
+            } py-4 md:border-r border-[rgba(155,152,152,0.8)] w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
           >
             9
           </div>
@@ -195,7 +196,7 @@ function HomePage() {
                 : isQueryTable
                 ? "w-[90px]"
                 : "px-3"
-            } py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
+            } py-4 border-r border-[rgba(155,152,152,0.8)] w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
           >
             Tâm
           </div>
@@ -208,13 +209,13 @@ function HomePage() {
                 : isQueryTable
                 ? "w-[90px]"
                 : "px-3"
-            } py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
+            } py-4 border-r border-[rgba(155,152,152,0.8)] w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
           >
             2
           </div>
         ),
         3: () => (
-          <div className="px-3 py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px]  flex justify-center items-center">
+          <div className="px-3 py-4 border-r border-[rgba(155,152,152,0.8)] w-[70px] text-[20px] font-[600] leading-[29.05px]  flex justify-center items-center">
             5
           </div>
         ),
@@ -226,7 +227,7 @@ function HomePage() {
                 : isQueryTable
                 ? "w-[90px]"
                 : "px-3"
-            } py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
+            } py-4 md:border-r border-[rgba(155,152,152,0.8)] w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
           >
             8
           </div>
@@ -268,7 +269,7 @@ function HomePage() {
                 : isQueryTable
                 ? "w-[90px]"
                 : "px-3"
-            } py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
+            } py-4 border-r border-[rgba(155,152,152,0.8)] w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
           >
             Thân
           </div>
@@ -281,13 +282,13 @@ function HomePage() {
                 : isQueryTable
                 ? "w-[90px]"
                 : "px-3"
-            } py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
+            } py-4 border-r border-[rgba(155,152,152,0.8)] w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
           >
             1
           </div>
         ),
         3: () => (
-          <div className="px-3 py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px]  flex justify-center items-center">
+          <div className="px-3 py-4 border-r border-[rgba(155,152,152,0.8)] w-[70px] text-[20px] font-[600] leading-[29.05px]  flex justify-center items-center">
             4
           </div>
         ),
@@ -299,7 +300,7 @@ function HomePage() {
                 : isQueryTable
                 ? "w-[90px]"
                 : "px-3"
-            } py-4 border-r border-black w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
+            } py-4 md:border-r border-[rgba(155,152,152,0.8)] w-[70px] text-[20px] font-[600] leading-[29.05px] flex justify-center items-center`}
           >
             7
           </div>
@@ -601,11 +602,17 @@ function HomePage() {
                 >
                   Ngày sinh
                 </label>
-                <input
-                  type="date"
-                  name="date"
-                  className="pl-[20px] pr-2 h-[48px] w-full bg-white rounded-[6px]"
-                />
+                <div className="w-full z-10 flex items-center h-fit relative bg-white rounded-[6px]">
+                  <input
+                    style={selectStyle}
+                    type="date"
+                    name="date"
+                    className="pl-[20px] pr-2 h-[48px] w-full bg-white rounded-[6px]"
+                  />
+                  <span className="absolute right-2.5 top-[30%] pointer-events-none">
+                    <img src={vector1} alt="" />
+                  </span>
+                </div>
               </div>
               <div className="lg:w-[344px] w-full h-fit">
                 <label
@@ -637,7 +644,9 @@ function HomePage() {
                   name="set"
                   style={selectStyle}
                 >
-                  <option>Giới tính</option>
+                  <option disabled selected hidden>
+                    Giới tính
+                  </option>
                   <option>Nam</option>
                   <option>Nữ</option>
                 </select>
@@ -884,7 +893,7 @@ function HomePage() {
           <div className="homePage__pythagore--wrapper flex items-center justify-center gap-[50px]">
             <Table data={data} />
             <div
-              className={`hidden xl:block px-[10px] w-fit py-[10px] border border-black rounded-[12px]`}
+              className={`hidden xl:block px-[10px] w-fit py-[10px] border border-[rgba(155,152,152,0.8)] rounded-[12px]`}
             >
               <img src={image} className="block w-[156px] h-[198px]  " alt="" />
             </div>

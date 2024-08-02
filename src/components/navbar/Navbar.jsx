@@ -6,7 +6,7 @@ import muslim from "../../images/muslim.png";
 import background from "../../images/Subtract.png";
 import bag from "../../images/bag.png";
 const Navbar = () => {
-  const isQuery = useMediaQuery({ query: "(max-width: 450px)" });
+  const isQuery = useMediaQuery({ query: "(max-width: 400px)" });
   return (
     <div
       className={`flex w-full justify-center bottom-5 items-center  ${
