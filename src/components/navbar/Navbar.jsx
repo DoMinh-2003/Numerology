@@ -13,11 +13,11 @@ const Navbar = () => {
         isQuery ? "fixed" : "hidden"
       }`}
     >
-      <div className="absolute flex justify-center items-center  inset-0 w-full h-40px">
+      <div className="absolute flex justify-center items-center  top-[5px] left-0 w-full h-40px">
         <img src={background} alt="" />
       </div>
       <div
-        className={`w-full text-white size-[12px] leading-[14.52px]  items-center  flex justify-around z-10 px-3 py-4 `}
+        className={`w-full text-white size-[12px] leading-[14.52px]  items-start mb-4  flex justify-around z-10 px-3 py-4 `}
       >
         <div className="flex flex-col font-[500] items-center">
           <img src={home} className="mb-2" alt="" />
